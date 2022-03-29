@@ -1,0 +1,7 @@
+gpg --gen-key
+
+export LONG_ID=
+
+gpg --keyserver keyserver.ubuntu.com --send-keys $LONG_ID
+
+gpg --armor --export-secret-keys $LONG_ID | base64 -w0
