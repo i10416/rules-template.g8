@@ -1,5 +1,10 @@
 A [Giter8][g8] template for [scalafix](https://scalacenter.github.io/scalafix/) rules!
 
+
+```
+g8 i10416/rules-template.g8
+```
+
 License
 ----------------
 Written in 2022 by Yoichiro Ito contact.110416+g8@gmail.com
